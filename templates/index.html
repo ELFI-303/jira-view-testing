@@ -1,0 +1,16 @@
+<html>
+   <link type= "text/css" href="{{ url_for('static',filename='styles/style.css') }}" rel="stylesheet"> 
+   <div class="config">
+      <h1>connexion</h1>
+      <form action = "http://localhost:{{port}}/continu/{{name}}" method = "post">
+         <fieldset>
+            <p>
+               1- Lets first connect to jira server side<br>
+               2- Lets connect to the test side<br>
+               3- After let the program do it things !
+            </p>
+         </fieldset>
+         <button type="submit" value = "submit" class="btn btn-primary btn-block btn-large">connect</button>
+      </form>
+   </div>
+</html>

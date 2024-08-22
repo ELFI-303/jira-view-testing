@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    image: mcr.microsoft.com/playwright
+    container_name: test-view-script
+    environment:
+      - DISPLAY=host.docker.internal:0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro

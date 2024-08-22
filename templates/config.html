@@ -1,0 +1,25 @@
+<html>
+   <link href="static/styles/style.css" rel="stylesheet"> 
+   <div class="config">
+      <h1>test-view program</h1>
+      <form action = "http://localhost:{{port}}/config" method = "post">
+         <fieldset>
+            <legend>Environment </legend>
+            <div class="rb">
+               <input type="radio" name="env" value="0">
+               <label for="0">Sandbox</label>
+            </div>
+            <div class="rb">
+               <input type="radio" name="env" value="1">
+               <label for="1">Cloud production</label>
+            </div>
+         </fieldset>
+         <input type="text" name="pk" placeholder="Project KEY" required="required" />
+         <input type="text" name="nt" placeholder="Number of tickets" required="required" />
+         <input type="text" name="lt" placeholder="Lowest ticket number" required="required" />
+         <input type="text" name="ht" placeholder="Highest ticket number" required="required" />
+
+         <button type="submit" value = "submit" class="btn btn-primary btn-block btn-large">Start the program.</button>
+      </form>
+   </div>
+</html>
