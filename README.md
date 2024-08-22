@@ -5,7 +5,7 @@ The tool mentioned here is a script that will help the migration team test the v
 
 To make this script work, you will need to have installed Docker and Quartz :
 
-# Installation :
+## Installation :
 
 Docker Desktop
 You can download Docker Desktop with this link :https://www.docker.com/products/docker-desktop/
