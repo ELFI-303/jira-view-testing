@@ -7,7 +7,8 @@ To make this script work, you will need to have installed Docker and Quartz :
 
 Installation :
 
-Docker Desktop: The #1 Containerization Tool for Developers | Docker 
+Docker Desktop
+You can download Docker Desktop with this link :https://www.docker.com/products/docker-desktop/
 
 XQuartz
 You can download XQuartz with this link : https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.5/XQuartz-2.8.5.pkg 
